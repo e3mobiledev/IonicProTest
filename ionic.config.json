@@ -1,8 +1,8 @@
 {
-  "name": "IonicProTestApp2",
+  "name": "myIonicProTestApp2",
   "integrations": {
     "cordova": {}
   },
   "type": "ionic-angular",
-  "pro_id": "5acb7a37"
+  "pro_id": "d7999560"
 }

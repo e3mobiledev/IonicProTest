@@ -22,11 +22,9 @@ export class ListPage {
     for (let i = 1; i < 11; i++) {
       this.items.push({
         title: 'Item ' + i,
-        note: `This is ${this.icons[i-1]}`,
-        
-        //icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-        //trying this again and again
-        icon: this.icons[i-1]
+        //note: 'This is item #' + i,
+        note: `Item is ${i}`,
+        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
     }
   }

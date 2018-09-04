@@ -25,7 +25,7 @@ export class ListPage {
         note: `This is ${this.icons[i-1]}`,
         
         //icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-        //trying this again
+        //trying this again and again
         icon: this.icons[i-1]
       });
     }

@@ -24,6 +24,7 @@ export class ListPage {
         title: 'Item ' + i,
         //note: 'This is item #' + i,
         note: `Item is ${i}`,
+        //I changed the above line
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
     }
